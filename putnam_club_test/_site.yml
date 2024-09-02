@@ -1,0 +1,11 @@
+name: "Carleton University: Putnam Study Club"
+navbar:
+  title: "William Lowell Putnam Study Club"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Practice Problems"
+      href: practice_problems.html
+    - text: "Meet the Team"
+      href: team.html
+output_dir: "docs"

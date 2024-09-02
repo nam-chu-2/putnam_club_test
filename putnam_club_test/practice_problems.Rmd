@@ -1,0 +1,15 @@
+---
+title: "Practice Problems"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+---
+
+
+## Putnam Practice (Putnam and Beyond)
+
+Here are a list of practice problems that we will be going over in today's session. The goal is that everyone gets the chance to try the problems in advance and then we can discuss them within the group study.
+
+### Here are some other resources for you to study... 

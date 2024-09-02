@@ -1,0 +1,14 @@
+---
+title: "Meet the Team"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+---
+
+## Team Members
+### Nathan Kazadi
+![Here is a photo of Nathan](/Users/home_folder/putnam_club_test/putnam_club_test/images/nathan_headshot.jpeg){width=50%}
+
+- Nathan is a math, physics, and neuroscience student. 
