@@ -11,7 +11,7 @@
 
 
 
-<title>Meet our team</title>
+<title>Nam Chu</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -263,35 +263,16 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Meet our team</h1>
+<h1 class="title toc-ignore">Nam Chu</h1>
 
 </div>
 
 
-<div id="meet-our-team" class="section level1">
-<h1>Meet our team</h1>
-<div class="grid-container">
-      <div class="grid-item">
-          <a href="nathan_kazadi.html">
-              <img src="images/nathan_headshot.JPG" alt="Nathan Headshot">
-              <p>Nathan Kazadi</p>
-              <h3> Co-President & Co-founder</h3>
-          </a>
-      </div>
-      <div class="grid-item">
-          <a href="nam_chu.html">
-              <img src="images/nam_headshot2.jpg" alt="Hoang-Nam Chu">
-              <p>Hoang-Nam Chu</p>
-              <h3>Co-President & Co-founder</h3>
-          </a>
-      </div>
-      <div class="grid-item">
-          <a href="gabe.html">
-              <img src="images/nam_headshot2.jpg" alt="Gabe">
-              <p>Gabriel</p>
-              <h3>Co-founder and Vice-President Curriculum</h3>
-          </a>
-      </div>
+<div class="bio-container">
+      <img src="images/nam_headshot2.jpg" alt="Student Picture">
+      <p>
+          “Nam is a third year Statistics and Economics Double Major. He holds an honours degree from the University of Ottawa in Biomedical Science. Nam competed in and coached math competitions in high-school and was a volunteer and speaker at Math Horizons day 2018. He hopes to bring more competitions to the university level.”
+      </p>
   </div>
 <style>
     body {
@@ -300,39 +281,32 @@ $(document).ready(function () {
         color: #333;
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        padding: 10px;
-    }
-    .grid-item {
+    .bio-container {
         background-color: #ffffff;
         border-radius: 10px;
-        overflow: hidden;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
-        transition: transform 0.3s;
+        max-width: 600px;
     }
-    .grid-item img {
-        width: 100%;
-        height: auto;
-        border-bottom: 1px solid #eaeaea;
+    .bio-container img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
     }
-    .grid-item p {
-        font-weight: bold;
-        padding: 15px;
-        color: #004080;
-    }
-    .grid-item:hover {
-        transform: scale(1.05);
-    }
-    .grid-item a {
-        color: inherit;
-        text-decoration: none;
+    .bio-container p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #555;
     }
 </style>
-</div>
 
 
 

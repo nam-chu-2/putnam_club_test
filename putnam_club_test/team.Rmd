@@ -1,14 +1,74 @@
 ---
-title: "Meet the Team"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    toc_depth: 4
+title: "Meet our team"
+output: html_document
 ---
+# Meet our team
+```{r, echo=FALSE}
+library(htmltools)
 
-## Team Members
-### Nathan Kazadi
-![Here is a photo of Nathan](/Users/home_folder/putnam_club_test/putnam_club_test/images/nathan_headshot.jpeg){width=50%}
+HTML(
+  '<div class="grid-container">
+      <div class="grid-item">
+          <a href="nathan_kazadi.html">
+              <img src="images/nathan_headshot.JPG" alt="Nathan Headshot">
+              <p>Nathan Kazadi</p>
+              <h3> Co-President & Co-founder</h3>
+          </a>
+      </div>
+      <div class="grid-item">
+          <a href="nam_chu.html">
+              <img src="images/nam_headshot2.jpg" alt="Hoang-Nam Chu">
+              <p>Hoang-Nam Chu</p>
+              <h3>Co-President & Co-founder</h3>
+          </a>
+      </div>
+      <div class="grid-item">
+          <a href="gabe.html">
+              <img src="images/nam_headshot2.jpg" alt="Gabe">
+              <p>Gabriel</p>
+              <h3>Co-founder and Vice-President Curriculum</h3>
+          </a>
+      </div>
+  </div>'
+)
+```
 
-- Nathan is a math, physics, and neuroscience student. 
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 10px;
+    }
+    .grid-item {
+        background-color: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+    .grid-item img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .grid-item p {
+        font-weight: bold;
+        padding: 15px;
+        color: #004080;
+    }
+    .grid-item:hover {
+        transform: scale(1.05);
+    }
+    .grid-item a {
+        color: inherit;
+        text-decoration: none;
+    }
+</style>

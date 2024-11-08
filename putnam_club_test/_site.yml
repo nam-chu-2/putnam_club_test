@@ -4,7 +4,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Practice Problems"
+    - text: "Sample Classes"
       href: practice_problems.html
     - text: "Meet the Team"
       href: team.html

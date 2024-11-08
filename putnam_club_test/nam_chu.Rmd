@@ -1,0 +1,51 @@
+---
+title: "Nam Chu"
+output: html_document
+---
+
+```{r, echo=FALSE}
+library(htmltools)
+
+HTML(
+  '<div class="bio-container">
+      <img src="images/nam_headshot2.jpg" alt="Student Picture">
+      <p>
+          “Nam is a third year Statistics and Economics Double Major. He holds an honours degree from the University of Ottawa in Biomedical Science. Nam competed in and coached math competitions in high-school and was a volunteer and speaker at Math Horizons day 2018. He hopes to bring more competitions to the university level.”
+      </p>
+  </div>'
+)
+```
+
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .bio-container {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 600px;
+    }
+    .bio-container img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .bio-container p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #555;
+    }
+</style>

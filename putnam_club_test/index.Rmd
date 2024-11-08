@@ -1,5 +1,9 @@
 ---
-title: "Welcome to our page"
+title: "Carleton University Competitive Math Club"
 output: html_document
 ---
-# I am testing to see if this works.
+
+# Want to get better at Math?
+
+We're Carleton's first competitive math club. Our goal is to encourage students to get more involved in math by running workshops and competitions. 
+
